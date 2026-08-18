@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24
 #SBATCH --gpus-per-node=1
-#SBATCH --time=0-11:58:00
+#SBATCH --time=0-2:58:00
 #SBATCH --job-name=openr1-sft-qwen3-1.7b-mathall
 #SBATCH --output=/scratch/zainab14/open-r1/logs/%x-%j.out
 #SBATCH --error=/scratch/zainab14/open-r1/logs/%x-%j.err
